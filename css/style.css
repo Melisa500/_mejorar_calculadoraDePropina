@@ -1,0 +1,42 @@
+html{
+    font-size: 1rem;
+    color: #4e4d4d;
+}
+
+main{
+    max-width: 50rem;
+    margin: 0 auto;
+    background: linear-gradient(10deg, #faa7e5, #c8ebe1);
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    border-radius: 4rem;
+    box-shadow: 0 2px 2px lightgray;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+section{
+    background-color: white;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    padding: 0 1.6rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 2px lightgray;
+}
+
+section > div{
+    padding: 1.6rem 0;
+}
+
+.divMonto{
+    display: flex;
+}
+
+.divMonto label{
+    flex: 1;
+}
+
