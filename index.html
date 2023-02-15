@@ -5,10 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Propina</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <main>
         <h1>Calculadora de Propina</h1>
+
+        <section>
+            <div>
+                <label for="monto">Monto</label>
+                <input type="number" placeholder="Ingresa el monto" id="monto">
+            </div>
+            <div>
+                <div>
+                    <label for="ingresoPorcentaje">Selecciona el porcentaje</label>
+                    <span id="seleccionPorcentaje">0%</span>
+                </div>
+                <input type="range" value="0" id="ingresoPorcentaje">
+            </div>
+            <div>
+                <span>Total del porcentaje</span>
+                <span id="totalPorcentaje"></span>
+            </div>
+            <hr>
+            <div>
+                <span>Total</span>
+                <span id="total"></span>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <label for="dividir">Dividir</label>
+                    <span id="divisor"></span>
+                </div>
+                <input type="range" min="1" max="20" value="1" id="dividir">
+            </div>
+            <div>
+                <span>Monto dividido</span>
+                <span id="montoDiv"></span>
+            </div>
+            <div>
+                <span>Porcentaje dividido</span>
+                <span id="porcentajeDiv"></span>
+            </div>
+        </section>
     </main>
 </body>
 </html>
