@@ -61,7 +61,7 @@ input[type="number"]{
     justify-content: space-between;
 }
 
-.total{
+.styleTotal{
     font-size: 2rem;
     font-weight: bolder;
 }

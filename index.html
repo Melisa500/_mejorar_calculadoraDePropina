@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
+    <main id="container">
         <h1>Calculadora de Propina</h1>
 
         <section>
@@ -28,12 +28,12 @@
             </div>
             <div class="space-between">
                 <span>Total del porcentaje</span>
-                <span id="totalPorcentaje"></span>
+                <span id="totalPorcentaje">0</span>
             </div>
             <hr>
             <div class="space-between total">
                 <span>Total</span>
-                <span id="total"></span>
+                <span id="total" class="styleTotal"></span>
             </div>
         </section>
         <section>
@@ -42,15 +42,19 @@
                     <label for="dividir">Dividir</label>
                     <span id="divisor">1</span>
                 </div>
-                <input type="range" min="1" max="20" value="1" id="dividir" class="range">
+                <input type="range" min="1" max="10" value="1" id="dividir" class="range">
             </div>
             <div class="space-between">
                 <span>Monto dividido</span>
-                <span id="montoDiv"></span>
+                <span id="montoDiv">-</span>
             </div>
             <div class="space-between">
                 <span>Porcentaje dividido</span>
-                <span id="porcentajeDiv"></span>
+                <span id="porcentajeDiv">-</span>
+            </div>
+            <div class="space-between">
+                <span>Total</span>
+                <span id="sumaTotal" class="styleTotal">-</span>
             </div>
         </section>
     </main>
